@@ -1,0 +1,1505 @@
+
+header{height: 0;}
+
+.recolorirnav{
+    background-color: white;
+}
+.a{
+    color: #606395 !important;
+}
+
+nav a{
+    margin-left:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left; margin-top: 12px;
+}
+nav .btn-nav{
+    margin-top: 0;
+    background-color:white ;
+    color: #317CAA;
+    width:100% ;
+    border-radius: 20px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+r{
+    color: #78BE21;
+}
+nav a:hover {
+    color: #78BE21;
+}
+.dropdown button{
+    
+    border-radius: 0;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.dropdown button:hover,small:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+nav .fa-chevron-down{
+    color: #78BE21;
+}
+.megamenu a{
+    color: #606395;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.megamenu .card{
+    margin-right: 2%;  
+}
+.megamenu .card:hover{
+    transform: scale(1.1);  
+}
+.megamenu .card, .megamenu .card-body{
+    padding: 0;
+    border: none;
+}
+.megamenu img{
+    height: 60%;
+    width: 100%;
+    border: 1px solid #FFD073;
+}
+.megamenu h6{
+    color: #6A6A57;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+.megamenu{/* Ajuste da cor da linha de divisa do megamenu */
+    border-top: solid;
+    border-color: #DFE0EE;
+    margin-top: 0;
+}
+/* mega menu */
+@media all and (min-width: 992px) {
+	.navbar{ padding-top: 0; padding-bottom: 0; }
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+
+}
+/* mega menu */                        
+
+h2{/*Ajuste geral dos títulos*/
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+}
+/* Inicio primeira Seção */
+#primeira{
+    background-image:linear-gradient(180deg, #050626 0%, rgba(2, 2, 15, 0.381395) 21.83%, rgba(0, 1, 4, 0.3) 45.62%, rgba(0, 0, 0, 0.3) 57.12%),
+    url(../img/Capa.png);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+/* Final primeira Seção */
+
+/* Inicio segunda Seção */
+.bg-azul1{
+    position: absolute;
+    height: 45vh;
+    background-color: #3286C3;
+}
+#segunda h1{
+    padding-top: 2.5%;
+    color: white;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#segunda p{
+    margin-top: 14%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+#card-blue .card{
+    margin-top: 12%;
+    background-color: #2E7BB2;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+#card-blue .card:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 5px 1px #2E7BB2;
+}
+#card-blue .card-text{
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+#card-blue i{
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color: #6CADD5;
+    font-size: 1.2pc;
+
+}
+#card-blue.card-body{
+    padding-top: 0;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+}
+.ajusteAltura{
+    padding-top: 15%;
+}
+#segunda .card{
+    border: none;
+}
+#segunda .card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 5px 1px rgb(236, 232, 232);
+}
+#segunda img{
+    height: auto;
+    width: 100%;
+}
+#segunda .card-body{
+    padding: 0;    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+#segunda .ajusteicons{
+    margin-top: -35%;
+    margin-left: 18%;
+}
+.ajusteCardFont{
+    font-size: 3vw;
+    padding-top: 0;
+}
+
+@media (max-width: 767px){
+    .bg-azul1{
+        position: relative;
+        height: 80vh;
+    }
+
+    #segunda h1{
+        padding-top: 5%;
+        font-size: 7vw;
+        line-height: 2.5pc;
+    }
+    #segunda p{
+        margin-top: 5%;
+        margin-left:11% ;
+        font-size: 4.5vw;
+    }
+    #card-blue .card{
+        margin: auto;
+        margin-top: 10%;
+        height: auto;
+        width: 50%;
+    }
+    #segunda  .ajusteCardFont{
+        font-size: 3vw;
+        padding-top: 0;
+    }
+    
+  
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+    .bg-azul1{
+        position: relative;
+        height: 90vh;
+    }
+
+    #segunda h1{
+        padding-top: 5%;
+        margin-left:04% ;
+        font-size: 6vw;
+        line-height: 3pc;
+    }
+    #segunda p{
+        margin-top: 5%;
+        margin-left:22% ;
+        font-size: 3vw;
+    }
+    #card-blue .card{
+        margin: auto;
+        margin-top: 10%;
+        height: auto;
+        width: 40%;
+    }
+    #segunda  .ajusteCardFont{
+        font-size: 2vw;
+        padding-top: 0;
+    }
+    
+} 
+  /* Desktop grande */
+@media (min-width: 1200px) {
+    .bg-azul1{
+        position: absolute;
+        height: 60vh;
+    }
+
+    #segunda h1{
+        padding-top: 5%;
+        margin-left:04% ;
+        font-size: 3vw;
+        line-height: 3pc;
+    }
+    #segunda p{
+        margin-top: 16%;
+        margin-left:22% ;
+        font-size: 0.9vw;
+    }
+    #card-blue .card{
+        margin: auto;
+        margin-top: 10%;
+        height: auto;
+        width: 100%;
+    }
+    #segunda  .ajusteCardFont{
+        font-size: 0.92vw;
+        padding-top: 0;
+        margin-top:5%;
+    }
+    
+
+}
+
+/* Final segunda Seção */
+
+/* Inicio terceira Seção */
+#terceira h2{
+    color: #FF5E0F;
+    margin-bottom: 7%;
+}
+#terceira p{
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4F4F40;
+
+}
+#terceira a{
+    background-color:#FF5E0F ;
+    color: white;
+    border-radius: 20px;
+    padding:9px;
+    padding-left:18px ;
+    padding-right: 18px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    
+}
+.play{
+    position:relative;
+    z-index: 1;
+}
+.corredor{
+    position: relative;
+    width: 95%; 
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.LOGOIPSUM{
+    position: absolute;/*fixa a posição da imagem para sobrepor com z-index a foto do corredor*/
+    z-index: 1; /*Sobrepõe a foto do corredor */
+    left: 18%;
+    top: 6%;
+    height:auto ;
+    width: 92%;
+}
+
+  
+@media (max-width: 767px){
+
+    #terceira p{
+        font-size: 3vw;
+    }
+    #terceira a{
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .corredor{
+        width: 100%; 
+        margin-left: 0;
+    }
+    .LOGOIPSUM{
+        left: 10%;
+        width: 90%;
+    }
+    .play{
+        display: none;
+     }
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+
+    #terceira p{
+        font-size: 2vw;
+    }
+    #terceira a{
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .corredor{
+        width: 100%; 
+        margin-left: 0;
+    }
+    .LOGOIPSUM{
+        left: 10%;
+        width: 90%;
+    }
+    
+    .play{
+        display: none;
+     }
+} 
+  /* Desktop grande */
+@media (min-width: 1200px) {
+
+    #terceira p{
+        font-size: 1vw;
+    }
+    #terceira a{
+        background-color:#FF5E0F ;
+        color: white;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .corredor{
+        width: 100%; 
+        margin-left: 10%;
+    }
+    .LOGOIPSUM{
+        left: 18%;
+        width: 90%;
+    }
+
+}
+
+/* Final terceira Seção */
+
+/* Inicio quarta Seção */
+#quarta img{  
+    height: 100%;
+    width: 100%;  
+    margin-left: -5%;
+}
+
+#quarta h2{
+    color:#FFBF3F;
+
+}
+#quarta p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:#6A6A57;
+}
+#quarta a{
+    background-color:#FFBF3F ;
+    color: white;
+    border-radius: 20px;
+    padding:10px;
+    padding-left:18px ;
+    padding-right: 18px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-align: center;    
+}
+
+  
+@media (max-width: 767px){
+    #quarta h2{
+        font-size: min(24px,6vw);
+        line-height: 35px
+    }
+    #quarta p{
+        font-size:3vw;
+    }
+    #quarta a{
+        margin-bottom: 10%;
+    }
+    
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+    #quarta p{
+        font-size:2.2vw;
+    }
+    #quarta a{
+        margin-bottom: 10%;
+    
+    }
+
+}
+
+  /* Desktop grande */
+@media (min-width: 1200px) {
+    #quarta p{
+        font-size: 16px;
+    }
+    #quarta img{  
+        margin-left: 7%;
+    }
+    
+}
+/* Final quarta Seção */
+
+/* Inicio quinta Seção */
+.bg-azul2{
+    background-color: #4698CA;
+}
+.ajusteSobrepor{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 0%;
+}
+#quinta h2{
+    margin-top: 1pc;
+    margin-left: 10%;
+    color: #FFBF3F;
+}
+#quinta p{
+    margin-left: 10%;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#quinta .card{
+    margin-top: 5%;
+    height: 90%;
+    width: 95%;
+    border: none;
+}
+#quinta .card-body{
+    padding: 6%;
+}
+#quinta .amarelo{/*Botão*/
+    margin-left: 10%;
+    background-color:#FFBF3F ;
+    color: white;
+    border-radius: 20px;
+    padding:10px;
+    padding-left:18px ;
+    padding-right: 18px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-align: center;    
+}
+#quinta img{
+    height: auto;
+    width: 100%;
+}
+#quinta .card-title{
+    padding: 1.5%;
+    margin-bottom:4% ;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4698CA;
+}
+#quinta .card-text{
+    padding: 4%;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #6A6A57;
+}
+#quinta .btn-outline-secondary{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 20%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    border-radius: 0;
+
+}
+#slide1 .carousel-control-prev, #slide1 .carousel-control-next{
+    opacity: 1;
+}
+#slide1 .fa-chevron-right:hover, #slide1 .fa-chevron-left:hover{
+   transform: scale(1.05);
+}
+#slide1 .fa-chevron-right{
+    left: 70%;
+    background-color: #FF7F41;
+    position: absolute;
+    border-radius: 1000px;
+    padding:15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    top: 30%;
+}
+
+@media (max-width: 767px){
+
+    #quinta h2{
+        margin-top: 1pc;
+        margin-left: 0%;
+        font-size: 8vw;
+
+    }
+    #quinta p{
+        margin-left: 0%;
+        font-size: 3vw;
+    }
+    #quinta .amarelo{/*Botão*/
+        margin-left: 0%;
+    }
+    .ajusteSobrepor{
+        position: relative;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+    #quinta .card-title{
+        padding: 0%;
+        margin-bottom:6% ;
+        font-size: 1.7vw;
+        line-height: 1pc;
+    }
+    #quinta .card-text{
+        margin-top: 5%;
+        padding: 0%;
+        font-size: 1.8vw;
+        line-height: 1pc;
+    }
+    #quinta .btn-outline-secondary{
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-bottom: 20%;
+        font-size: 2vw;
+    }
+    #slide1 i{
+        font-size: 3vw;
+    }
+    #slide1 .fa-chevron-right{
+        left: 10.5vw;
+        padding:2.5vw;
+        top: 30%;
+    }
+   
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+
+    #quinta h2{
+        margin-top: 1pc;
+        margin-left: 5%;
+        font-size: 5vw;
+
+    }
+    #quinta p{
+        margin-left: 5%;
+        font-size: 2vw;
+    }
+    #quinta .amarelo{/*Botão*/
+        margin-left: 5%;
+    }
+    .ajusteSobrepor{
+        position: relative;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+    #quinta .card-title{
+        padding: 0%;
+        margin-bottom:6% ;
+        font-size: 1.7vw;
+        line-height: 1pc;
+    }
+    #quinta .card-text{
+        margin-top: 5%;
+        padding: 0%;
+        font-size: 1.8vw;
+        line-height: 1pc;
+    }
+    #quinta .btn-outline-secondary{
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-bottom: 20%;
+        font-size: 2vw;
+    }
+    #slide1 i{
+        font-size: 2vw;
+    }
+    #slide1 .fa-chevron-right{
+        left: 10.5vw;
+        padding:2vw;
+        top: 35%;
+    }
+ 
+
+}
+
+  /* Desktop grande */
+@media (min-width: 1200px) {
+
+    #quinta h2{
+        margin-top: 1pc;
+        margin-left: 5%;
+        font-size: 3vw;
+
+    }
+    #quinta p{
+        margin-left: 5%;
+        font-size: 1vw;
+    }
+    #quinta .amarelo{/*Botão*/
+        margin-left: 5%;
+    }
+    .ajusteSobrepor{
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+    #quinta .card-title{
+        padding: 2%;
+        padding-left: 3%;
+        margin-bottom:6% ;
+        font-size: 0.8vw;
+        line-height: 1pc;
+    }
+    #quinta .card-text{
+        margin-top: 5%;
+        padding: 2%;
+        padding-left: 3%;
+        font-size: 0.69vw;
+        line-height: 1pc;
+    }
+    #quinta .btn-outline-secondary{
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-bottom: 10%;
+        font-size: 1vw;
+    }
+    #slide1 i{
+        font-size: 1vw;
+    }
+    #slide1 .fa-chevron-right{
+        left: 5.5vw;
+        padding:1.5vw;
+        top: 35%;
+    }
+ 
+    
+}
+
+/* Final quinta Seção */
+
+/* Inicio sexta Seção */
+#sexta{margin-top: 7%;}
+.bg-elemento1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 30vw;
+    ;
+    left: -3pc;
+    filter: opacity(15%);
+    fill: #6A6A57;
+    z-index: -1;
+}
+
+.bg-elemento2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 30vw;
+    left: 29pc;
+    left: 65%;
+    filter: opacity(15%);
+    z-index: -1;
+}
+
+}
+#sexta i{
+    color: #B0008E;
+    font-size: 38px;
+    margin-bottom: 3%;
+    margin-left: 50pc;
+}
+#sexta h2{
+    color: #606395;
+    margin-left: 25%;
+    font-size: 3vw;
+}
+#sexta a{
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E31C79;
+    margin-left: 25%;
+}
+#slide2 img{
+    height:100%;
+    width:100% ;
+}
+
+  
+@media (max-width: 767px){
+
+    .bg-elemento1{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 30vw;;
+        left: 10px;
+    }
+    .bg-elemento2{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 30vw;
+        right: 10px;
+    }
+    #sexta i{
+        margin-left: 0%;
+        color: #B0008E;
+    }
+    #sexta h2{
+        margin-left: 0%;
+        font-size: 5vw;
+        line-height: 2.5pc;
+    }
+    #sexta a{
+        margin-left: 0%;
+    }
+    
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+
+    .bg-elemento1{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 30vw;;
+        left: 10px;
+    }
+    .bg-elemento2{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 30vw;
+        right: 10px;
+    }
+    #sexta i{
+        color: #B0008E;
+        margin-left: 25%;
+        font-size: 3vw;
+        
+    }
+    #sexta h2{
+        margin-left: 25%;
+    }
+    #sexta a{
+        margin-left: 25%;
+    }
+
+}
+
+  /* Desktop grande */
+@media (min-width: 1200px) {
+  
+    .bg-elemento1{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 30vw;;
+        left: -3pc;
+    }
+    .bg-elemento2{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 30vw;
+        left: 29pc;
+    }
+    #sexta i{
+        color: #B0008E;
+        margin-left: 20%;
+        font-size: 3vw;
+    }
+    #sexta h2{
+        margin-left: 20%;
+        font-size: 2.4vw;
+    }
+    #sexta a{
+        margin-left: 23%;
+    }
+    
+    
+}
+/* Final sexta Seção */
+
+/* Inicio Sexta Seção */
+#setima h2{
+    margin-top: 5%;
+    text-align: center;
+    color: #78BE21;
+}
+#setima p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    
+    
+}
+#setima svg{
+    height: 20px;
+}
+#setima .link-btn{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-color: #78BE21;
+    color: #78BE21;
+    background-color: transparent;
+    padding-left:18px ;
+    padding-right: 18px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    fill: #78BE21;
+
+}
+#setima .link-btn:hover{
+    background-color:#78BE21 ;
+    color: white;
+    fill: white;
+}
+#setima .ajustesvg{
+    height: 17px;
+}
+#setima img{
+    height:auto;
+    width:100%;
+}
+#setima .card{
+    margin-right: 1pc;
+    background-color: transparent;
+    border: none;
+
+}
+#setima .card, #setima .card-body{
+    background-color: transparent;
+    padding-top: 4%;
+}
+#setima .card-body{
+    padding: 0;
+}
+#setima .card-title{
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+    color: #78BE21;
+}
+#setima .card-text{
+    color: #6A6A57;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    width: 100$;
+
+}
+#slide3 .carousel-control-prev, #slide3 .carousel-control-next{
+    opacity: 1;
+}
+#slide3 .fa-chevron-right:hover, #slide3 .fa-chevron-left:hover{
+   transform: scale(1.05);
+}
+#slide3 i{
+    background-color: #78BE21;
+    position: absolute;
+    border-radius: 1000px;
+    padding:15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    top: 35%;
+}
+#slide3 .fa-chevron-right{
+    left: 11vw;
+}
+#slide3 .fa-chevron-left{
+    right: 11vw;
+}
+/* Telefones em paisagem e abaixo */
+  
+@media (max-width: 767px){
+    #setima h2{
+        margin-top: 5%;
+        font-size: 6vw;
+    }
+    #setima p{
+        font-size: 3vw;
+    }
+    #setima .card{
+        margin-right: 0.2pc;
+        font-size: 1vw;
+    }
+    #setima .card-title{
+        line-height: 1pc;
+        font-size: 2.5vw;
+    }
+    #setima .card-text{
+        line-height: 1pc;
+        font-size: 2.5vw;
+    }
+    #slide3 i{
+        top: 23%;
+        font-size: 3vw;
+        padding:2vw;
+    }
+    #slide3 .fa-chevron-right{
+        left: 7.5vw;
+    }
+    #slide3 .fa-chevron-left{
+        right:  7.5vw;
+    }
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+    #setima h2{
+        margin-top: 5%;
+        font-size: 4vw;
+    }
+    #setima p{
+        font-size: 2vw;
+    }
+    #setima .card{
+        margin-right: 0.2pc;
+        font-size: 1vw;
+    }
+    #setima .card-title{
+        margin-top: 10%;
+        line-height: 1pc;
+        font-size: 2vw;
+    }
+    #setima .card-text{
+        line-height: 1pc;
+        font-size: 2vw;
+        margin-bottom: 10%;
+    }
+    #slide3 i{
+        top: 23%;
+        font-size: 2vw;
+        padding:1vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+    }
+    #slide3 .fa-chevron-right{
+        left: 10.5vw;
+    }
+    #slide3 .fa-chevron-left{
+        right:  10.5vw;
+    }
+
+}
+
+  /* Desktop grande */
+@media (min-width: 1200px) {
+  
+    #setima h2{
+        margin-top: 5%;
+        font-size: 3vw;
+    }
+    #setima p{
+        font-size: 1.2vw;
+    }
+    #setima .card{
+        margin-right: 1pc;
+        font-size: 1vw;
+    }
+    #setima .card-title{
+        margin-top: 8%;
+        line-height: 1pc;
+        font-size: 1.5vw;
+    }
+    #setima .card-text{
+        line-height: 1pc;
+        font-size: 1.2vw;
+        margin-bottom: 10%;
+    }
+    #slide3 i{
+        top: 30%;
+        font-size: 1vw;
+        padding:1.3vw;
+    }
+    #slide3 .fa-chevron-right{
+        left: 10vw;
+    }
+    #slide3 .fa-chevron-left{
+        right: 10vw;
+    }
+ 
+    
+    
+}
+/* Final sexta Seção */
+
+
+/* Final Sexta Seção */
+
+/* Inicio oitava Seção */
+#oitava{background: #F2F2EE;}
+#oitava h2, #oitava p,#oitava a{margin-left: 20%;}
+#oitava h2{
+    margin-top: 20%;
+    color: #FA4616;
+}
+#oitava p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #6A6A57;
+}
+#oitava a{
+    margin-top:1pc;
+    background-color:#FFFFFF ;
+    color: #FA4616;
+    border-radius: 20px;
+    padding:9px;
+    padding-left:18px ;
+    padding-right: 18px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+
+  /* Telefones em paisagem a tablet em retrato */
+  
+@media (max-width: 767px){
+    #oitava h2, #oitava p,#oitava a{margin-left: 4%;}
+    #oitava p{
+        font-size: 2.8vw;
+    }
+    
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+    #oitava h2, #oitava p,#oitava a{margin-left: 4%;}
+    #oitava p{
+        font-size: 1.2vw;
+    }
+    #oitava a{
+        margin-bottom:15%;
+    }
+}
+  
+  /* Desktop grande */
+@media (min-width: 1200px) {
+    #oitava h2, #oitava p,#oitava a{margin-left: 4%;}
+    #oitava p{
+        font-size: 1vw;
+    }
+}
+
+/* Final Seção oitava */
+
+/* footer */
+footer{
+    background-color: #012765;
+    color: white;
+}
+
+footer h6{ /* Título das Categorias do footer*/
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: #F8F9FA;
+}
+.montanha{
+    background-image: url(../img/Montanha.png);
+    background-repeat: no-repeat;
+    background-position: left left;
+    background-color: #03257E;
+    background-size: 23% 155%;
+    height: 125px;
+}
+.montanha p{
+    margin-top: 2.5pc;
+    padding-left: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.montanha label{margin-top: 1.5pc;}
+.montanha label, .montanha input{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #E9ECEF;
+
+
+}
+.montanha input::-webkit-input-placeholder  { color:#E9ECEF; }
+.montanha input:-moz-placeholder { color:#E9ECEF; }
+.montanha input:-moz-placeholder { color:#E9ECEF; }
+.montanha .btn{
+    margin-top:2.8pc;
+    background-color:#FFFFFF ;
+    color: #03257E;
+    border-radius: 20px;
+    padding:9px;
+    padding-left:18px ;
+    padding-right: 18px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+.montanha input{
+    background-color: transparent;
+    border-radius: 0;
+}
+footer img{
+    width:12pc ;
+}
+.ajusteletrasfooter{
+    margin-top: 1.5pc;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+footer ul,li{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+footer li a{
+    color: #56CCF2;
+}
+footer small{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:#8AA6D5;
+}
+/*Final Primeira Coluna Footer */
+
+/*Inicio Segunda Coluna Footer */
+#contato,#contato a{/* Define a coloração das letras, contatos, email e fale conosco */
+    color:#56CCF2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+#contato img{
+   height: 1.3pc;
+   width: 1.2pc; 
+   margin-right: 10px;
+}
+.ajustedist{/* Ajuste de distanciamento */
+    margin-left: 9.6%;
+}
+#contato .card{
+    background-color: transparent;
+    border-color: #56CCF2;
+    padding: 2%;
+    padding-top: 1%;
+}
+#contato .card{
+    height: 15pc;
+    width:97%;
+    background-color: transparent;
+    border-color: #56CCF2;
+    border-radius: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#contato .card-title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#contato .card-text{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #8AA6D5;
+}
+#contato .card a{
+    margin-top: 5%;
+    background-color: #56CCF2;
+    color:#03257E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    border-radius:20px ;
+    padding:12.5px ;
+    padding-right:15px ;
+    padding-left: 15px;
+}
+/*Final Segunda Coluna Footer */
+
+/*Inicio Terceira Coluna Footer */
+footer i{
+    color: #56CCF2;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 18.5px;
+    border-radius:3px;
+}
+.imgspag{
+    height:2pc ;
+    width: 3pc;
+    margin-right: 5px;
+    margin-top: 4%;
+}
+/* Final Cards Sustentabilides */
+#cardsustentabilidade .card{
+    height: 70px;
+    width:100% ;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+#cardsustentabilidade .card:hover{
+    transform: scale(1.0);
+    box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+}
+.organicoBrasil{ 
+    background-image: url(../img/icons/organicoBrasil.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85% 85%;
+}
+.eureciclo{ 
+    background-image: url(../img/icons/eureciclo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 89%;
+}
+.usda{
+    background-image: url(../img/icons/usda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 80%;
+}							                      
+.produtovegano{
+    background-image: url(../img/icons/produtovegano.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 80%;
+}	
+.ibd{
+    background-image: url(../img/icons/ibd.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60% 80%;
+}						
+.reclameaqui{
+    background-image: url(../img/icons/reclameaqui.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 55%;
+}							
+/*Inicio Terceira Coluna Footer */
+
+/* Rodapé Nerau */
+.nerau{
+    background-color: #002053;
+    padding: 19px;
+}
+.nerau img{
+  height:2pc ;
+  width:4pc;
+}
+/*Final footer */
+
+
+  /* Telefones em paisagem a tablet em retrato */
+  
+@media (max-width: 767px){
+    .montanha{
+        background-size: 100% 155%;
+        height: 65vh;
+    }
+    .montanha p{
+        margin-top: 2.5pc;
+        padding-left: 10px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    #cardsustentabilidade .card{
+        height: 75px;
+        width:90% ;
+        margin-top: 10px;
+    
+    }
+}
+  /* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px){
+    .montanha{
+        background-size: 100% 155%;
+        height: 60vh;
+    }
+    .montanha p{
+        margin-top: 2.5pc;
+        padding-left: 10px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    #cardsustentabilidade .card{
+        height: 75px;
+        width:50% ;
+        margin-top: 10px;
+    
+    }
+}
+  
+  /* Desktop grande */
+@media (min-width: 1200px) {
+
+    #cardsustentabilidade .card{
+        height: 75px;
+        width:100% ;
+        margin-top: 10px;
+    }
+}
+
